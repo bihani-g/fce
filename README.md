@@ -1,4 +1,4 @@
-# Calibration Estimation Using Fuzzy Binning
+# Calibration Error Estimation Using Fuzzy Binning
 
 ## About fuzzy-binning
 
