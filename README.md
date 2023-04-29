@@ -8,10 +8,20 @@ This repository contains code and implementation for FCE, as described in the pa
 
 ## How to use?
 
+
 - Check dependencies
   - 
+
+
 - Download packages listed in `requirements.txt`
-- 
+
+- Run `finetune.py` to :
+
+```
+python finetune.py $dataset $size $n_bins "data_dir" "result_dir"
+```
+
+
 
 
 
