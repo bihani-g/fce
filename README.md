@@ -8,6 +8,13 @@ This repository contains code and implementation for FCE, as described in the pa
 
 ## How to use?
 
+- Check dependencies
+  - 
+- Download packages listed in `requirements.txt`
+- 
+
+
+
 
 
 
