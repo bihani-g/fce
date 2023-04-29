@@ -27,8 +27,8 @@ python finetune.py --dataset
 ```
 
 
-
-- Run `calibration_analysis.ipynb` to visualize binning differences in ECE and FCE.
+## Demo 
+- To visualize binning differences in ECE and FCE, you can also run `calibration_analysis.ipynb` that uses prediction probabilities saved in `demo_data` for analysis.
 
 
 
