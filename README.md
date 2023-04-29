@@ -6,20 +6,27 @@ Estimation of calibration error in neural networks is done using metrics based o
 
 This repository contains code and implementation for FCE, as described in the paper "Calibration Estimation Using Fuzzy Binning". 
 
-## How to use?
+## How to use this repository?
 
-
-- Check dependencies
-  - 
-
-
-- Download packages listed in `requirements.txt`
+- Clone this repository
+- Create a conda environment and install all the required python packages
+```
+conda create -n fce_env python=3.10.4
+conda activate fce_env
+conda install pytorch=2.0.0 torchvision=0.14.1 cudatoolkit=11.3.1 -c pytorch
+pip install -r requirements.txt
+```
 
 - Run `finetune.py` to generate ECE and FCE scores.
+```
+python finetune.py --dataset
+                   --size
+                   --n_bins
+                   --data_dir
+                   --result_dir
+```
 
-```
-python finetune.py $dataset $size $n_bins "data_dir" "result_dir"
-```
+
 
 - Run `calibration_analysis.ipynb` to visualize binning differences in ECE and FCE.
 
