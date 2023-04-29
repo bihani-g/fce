@@ -15,11 +15,15 @@ This repository contains code and implementation for FCE, as described in the pa
 
 - Download packages listed in `requirements.txt`
 
-- Run `finetune.py` to :
+- Run `finetune.py` to generate ECE and FCE scores.
 
 ```
 python finetune.py $dataset $size $n_bins "data_dir" "result_dir"
 ```
+
+- Run `calibration_analysis.ipynb` to visualize binning differences in ECE and FCE.
+
+
 
 
 
