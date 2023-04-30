@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 - Run `finetune.py` to generate ECE and FCE scores.
-```python
+```bash
 python finetune.py --dataset
                    --size
                    --n_bins
