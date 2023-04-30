@@ -21,12 +21,6 @@ conda install pytorch=2.0.0 torchvision=0.14.1 cudatoolkit=11.3.1 -c pytorch
 pip install -r requirements.txt
 ```
 
-- Reproducing paper results
-
-  - Run `./paper_demo/run.sh` to reproduce ECE and FCE scores given in the paper.
-
-  - Run `calibration_analysis.ipynb` to plot binning differences in ECE and FCE as shown in the paper.
-
 - Generating your own ECE and FCE scores
     - Run `fuzzy_binning.py` to generate ECE and FCE scores for your own predictions.
 
@@ -42,7 +36,11 @@ pip install -r requirements.txt
     - Actual labels (`labels`)
     
 
-    
+## Reproducing paper results
+
+  - Run `./paper_demo/run.sh` to reproduce ECE and FCE scores given in the paper.
+
+  - Run `calibration_analysis.ipynb` to plot binning differences in ECE and FCE as shown in the paper.
 
 A few examples comparing fuzzy and crisp binning and the reduced impact of probability skew on FCE calculations.
 
