@@ -31,6 +31,14 @@ python finetune.py --dataset
 - To visualize binning differences in ECE and FCE, you can also run `calibration_analysis.ipynb` that uses prediction probabilities saved in `demo_data` for analysis.
 
 
+## A few examples showing where fuzzy binning is less affected by probability skew as compared to crisp binning. (given in the paper).
+
+
+
+
+
+
+
 
 
 
