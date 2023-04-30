@@ -38,10 +38,14 @@ python finetune.py --dataset
 A few examples comparing fuzzy and crisp binning and the reduced impact of probability skew on FCE calculations.
 
 
+<p align="center">
+<img src="https://github.com/bihani-g/fce/blob/main/distrbn%20_ce_across_bins_5k.pdf">
+</p>
 
 
-
-
+<p align="center">
+<img src="https://github.com/bihani-g/fce/blob/main/ece_vs_fce_across_bins.png">
+</p>
 
 
 
