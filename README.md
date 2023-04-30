@@ -40,7 +40,7 @@ This repository contains code and implementation for FCE, as described in the pa
 
   - Run `./paper_demo/run.sh` to reproduce ECE and FCE scores given in the paper.
 
-  - Run `calibration_analysis.ipynb` to plot binning differences in ECE and FCE as shown in the paper.
+  - Run `./paper_demo/calibration_analysis.ipynb` to plot binning differences in ECE and FCE as shown in the paper.
 
 A few examples comparing fuzzy and crisp binning and the reduced impact of probability skew on FCE calculations.
 
