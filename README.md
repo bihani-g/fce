@@ -14,7 +14,7 @@ This repository contains code and implementation for FCE, as described in the pa
 
 - Clone this repository
 - Create a conda environment and install all the required python packages
-```
+```bash
 conda create -n fce_env python=3.10.4
 conda activate fce_env
 conda install pytorch=2.0.0 torchvision=0.14.1 cudatoolkit=11.3.1 -c pytorch
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 - Run `finetune.py` to generate ECE and FCE scores.
-```
+```python
 python finetune.py --dataset
                    --size
                    --n_bins
