@@ -27,6 +27,22 @@ pip install -r requirements.txt
 
   - Run `calibration_analysis.ipynb` to plot binning differences in ECE and FCE as shown in the paper.
 
+- Generating your own ECE and FCE scores
+    - Run `fuzzy_binning.py` to generate ECE and FCE scores for your own predictions.
+
+    ```bash
+  python fuzzy_binning.py --predict_probs_pkl 
+                          --predicted_labels
+                          --labels
+                          --bins
+    ```
+  The script requires 3 files in `.pickle` format. 
+    - Softmax prediction probabilities (`predict_probs_pkl`)
+    - Predicted labels (`predicted_labels`)
+    - Actual labels (`labels`)
+    
+
+    
 
 A few examples comparing fuzzy and crisp binning and the reduced impact of probability skew on FCE calculations.
 
@@ -39,6 +55,13 @@ A few examples comparing fuzzy and crisp binning and the reduced impact of proba
 <p align="center">
 <img src="https://github.com/bihani-g/fce/blob/main/ece_vs_fce_across_bins.png">
 </p>
+
+
+
+
+
+
+
 
 
 
