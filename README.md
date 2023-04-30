@@ -21,18 +21,11 @@ conda install pytorch=2.0.0 torchvision=0.14.1 cudatoolkit=11.3.1 -c pytorch
 pip install -r requirements.txt
 ```
 
-- Run `finetune.py` to generate ECE and FCE scores for text classification tasks given in the paper.
-```bash
-python finetune.py --dataset
-                   --size
-                   --n_bins
-                   --data_dir
-                   --result_dir
-```
+- Reproducing paper results
 
+  - Run `./paper_demo/run.sh` to reproduce ECE and FCE scores given in the paper.
 
-## Demo 
-- To visualize binning differences in ECE and FCE, you can also run `calibration_analysis.ipynb` that uses prediction probabilities saved in `demo_data` for analysis.
+  - Run `calibration_analysis.ipynb` to plot binning differences in ECE and FCE as shown in the paper.
 
 
 A few examples comparing fuzzy and crisp binning and the reduced impact of probability skew on FCE calculations.
@@ -46,11 +39,6 @@ A few examples comparing fuzzy and crisp binning and the reduced impact of proba
 <p align="center">
 <img src="https://github.com/bihani-g/fce/blob/main/ece_vs_fce_across_bins.png">
 </p>
-
-
-
-
-
 
 
 
