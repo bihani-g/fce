@@ -21,7 +21,7 @@ conda install pytorch=2.0.0 torchvision=0.14.1 cudatoolkit=11.3.1 -c pytorch
 pip install -r requirements.txt
 ```
 
-- Run `finetune.py` to generate ECE and FCE scores.
+- Run `finetune.py` to generate ECE and FCE scores for text classification tasks given in the paper.
 ```bash
 python finetune.py --dataset
                    --size
