@@ -1,5 +1,7 @@
 # Calibration Error Estimation Using Fuzzy Binning
 
+This repository contains code and analyses for the [paper](https://arxiv.org/abs/2305.00543) "Calibration Error Estimation Using Fuzzy Binning".
+
 ## About fuzzy-binning
 
 Estimation of calibration error in neural networks is done using metrics based on crisp-binning of prediction probabilities such as ECE and MCE. These metrics are vulnerable to the leftward-skew in model prediction probabilities. To address this issue, we propose Fuzzy Calibration Error (FCE) that utilizes a fuzzy binning approach. Using FCE reduces the impact of probability skew when measuring calibration error.
