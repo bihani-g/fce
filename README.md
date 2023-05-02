@@ -1,6 +1,6 @@
 # Calibration Error Estimation Using Fuzzy Binning
 
-This repository contains code and analyses for the paper ["Calibration Error Estimation Using Fuzzy Binning"](https://arxiv.org/abs/2305.00543).
+This repository contains code and implementation for the paper ["Calibration Error Estimation Using Fuzzy Binning"](https://arxiv.org/abs/2305.00543).
 
 ## About fuzzy-binning
 
@@ -10,7 +10,6 @@ Estimation of calibration error in neural networks is done using metrics based o
 <img src="https://github.com/bihani-g/fce/blob/main/figures/binning.png" width="500">
 </p>
 
-This repository contains code and implementation for FCE, as described in the paper "Calibration Estimation Using Fuzzy Binning". 
 
 ## How to use this repository?
 
