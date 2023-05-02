@@ -1,6 +1,6 @@
 # Calibration Error Estimation Using Fuzzy Binning
 
-This repository contains code and analyses for the [paper](https://arxiv.org/abs/2305.00543) "Calibration Error Estimation Using Fuzzy Binning".
+This repository contains code and analyses for the paper ["Calibration Error Estimation Using Fuzzy Binning"](https://arxiv.org/abs/2305.00543).
 
 ## About fuzzy-binning
 
